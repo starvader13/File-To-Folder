@@ -1,9 +1,9 @@
 import os
 import subprocess
 
-curr_dir = (f"/home/starvader/ashutosh_workspace/cp_ws/codechef/codechef_code")
+curr_dir = (f"/home/starvader/ashutosh_workspace/cp_ws/codeforces/codeforces_code")
 print(curr_dir)
-target_dir = "/home/starvader/ashutosh_workspace/git_ws/github/CPP-Practice/Codechef_Solution"
+target_dir = "/home/starvader/ashutosh_workspace/git_ws/github/CPP-Practice/Codeforces_Solution"
 
 for root,dirs,files in os.walk(curr_dir):
     for file_list in files:
